@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tab小插件</title>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <meta name="x5-orientation" content="portrait"/>
+    <link rel="stylesheet" href="./css/tab.css"/>
+</head>
+<body>
+
+<div class="wrapper">
+    <ul class="wrapper_ul">
+        <li class="title active">娱乐</li>
+        <li class="title">股票</li>
+        <li class="title">商业</li>
+        <li class="title">地产</li>
+    </ul>
+    <ul>
+        <li class="content show">娱乐新闻</li>
+        <li class="content">股票新闻</li>
+        <li class="content">商业新闻</li>
+        <li class="content">地产新闻</li>
+    </ul>
+</div>
+<script src="./js/tab.js"></script>
+<script>
+    tab({
+        autoPlay:true,
+        autoTime:3000
+    });
+</script>
+</body>
+</html>

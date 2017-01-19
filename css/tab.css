@@ -1,0 +1,44 @@
+/*style reset*/
+* {
+    padding: 0;
+    margin: 0;
+    font: 12px/1em "宋体";
+}
+li {
+    list-style: none;
+}
+.wrapper{
+    width:400px;
+}
+.wrapper_ul{
+    display: inline-flex;
+    width:100%;
+}
+.title{
+    flex:1 0 auto;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    border:1px solid #ddd;
+    margin-left:-1px;
+    background:#f2f2f2;
+    box-sizing: content-box;
+}
+.active{
+    background:#ddd;
+}
+.title:hover{
+    transition: 1s all ease;
+    background:#ddd;
+}
+.content{
+    width:100%;
+    height:300px;
+    text-align: center;
+    line-height: 300px;
+    background:#f7f7f7;
+    display: none;
+}
+.show{
+    display: block;
+}
